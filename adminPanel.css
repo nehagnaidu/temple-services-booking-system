@@ -1,0 +1,271 @@
+body {
+  background-color: rgba(255, 228, 118, 0.427);
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Georgia;
+}
+.topnav {
+  margin-top: -7px;
+  margin-left: -7px;
+  height: 75px;
+  width: auto;
+  background-color: rgb(252, 163, 55);
+  font-family: Georgia;
+}
+.Logo {
+  float: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.l1 {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.name {
+  margin-top: 30px;
+  font-size: 22px;
+}
+.name a {
+  text-decoration: none;
+  color: black;
+}
+.Logo2 {
+  float: right;
+  display: flex;
+  margin-right: 40px;
+  gap: 10px;
+}
+.l2 {
+  margin-top: 23px;
+}
+.mantra {
+  margin-top: 30px;
+  font-size: 22px;
+}
+  
+  .admin-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    min-width: 250px;
+    background-color: #e38710;
+    min-height: 100vh;
+    height: auto;
+    color: white;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #fdb75c;
+  }
+  
+  .main-content {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  #devotees h4 {
+    margin-bottom: 20px;
+  }
+  
+  #devotees {
+    width: 100%;
+    margin-left: 250px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #devotees th, #devotees td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #devotees th {
+    background-color: #f7c233;
+  }
+
+  #darshan {
+    width: 100%;
+    margin-left:50px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #darshan th, #darshan td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #darshan th {
+    background-color: #f7c233;
+  }
+
+  .update {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.update:hover {
+    background-color: darkgreen;
+}
+
+  #accommodation {
+    width: 950px;
+    margin-left:50px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #accommodation th, #accommodation td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #accommodation th {
+    background-color: #f7c233;
+  }
+
+  #seva {
+    width: 900px;
+    margin-left:50px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #seva th, #seva td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #seva th {
+    background-color: #f7c233;
+  }
+
+  #feedback {
+    width: 900px;
+    margin-left:300px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #feedback th, #feedback td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #feedback th {
+    background-color: #f7c233;
+  }
+
+  #notifications {
+    width: 800px;
+    margin-left:70px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  #notifications h4{
+    text-align: center;
+  }
+  #notifications th, #notifications td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #notifications th {
+    background-color: #f7c233;
+  }
+
+  .notification-table input[type="text"]{
+    padding: 10px;
+    margin-bottom: 10px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Adjusts input text size */
+    width: 100%; /* Makes the inputs full-width */
+    box-sizing: border-box; /* Ensures padding doesn’t exceed width */
+  }
+  .notification-table button {
+    padding: 5px;
+    background-color: #049206; /* Primary button color */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.notification-table button:hover {
+    background-color: #37ca19; /* Darkens the button on hover */
+}
+
+
+  .add-notification {
+    background-color:  #f7c233; /* Light background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    max-width: 500px; /* Limits the form width */
+    margin: 20px auto; /* Centers the form on the page */
+    margin-top: 30px;
+}
+
+.add-notification h4 {
+    color: #333; /* Darker text color */
+    margin-bottom: 15px; /* Adds space below the heading */
+    text-align: center; /* Centers the heading */
+}
+
+.add-notification form {
+    display: flex;
+    flex-direction: column; /* Aligns form elements vertically */
+}
+
+.add-notification input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Adjusts input text size */
+    width: 100%; /* Makes the inputs full-width */
+    box-sizing: border-box; /* Ensures padding doesn’t exceed width */
+}
+
+.add-notification button {
+    padding: 12px;
+    background-color: #049206; /* Primary button color */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.add-notification button:hover {
+    background-color: #37ca19; /* Darkens the button on hover */
+}
+
+  
+  
